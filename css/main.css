@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.correctCount{
+  text-align: center;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.box {
+  /*height: 200px;*/
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid grey;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+  margin: 10px;
+
+ }
+
+button:hover {
+  cursor: pointer;
+}
+
+.options {
+  display: none;
+}
